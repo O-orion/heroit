@@ -1,7 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { RootLayout } from "../components/layout/RootLayout";
+import HomePage from "../components/pages/homePage/Index";
 
-function HomePage() { return <div>Página Inicial</div>; }
+
 function SobrePage() { return <div>Página Sobre</div>; }
 function ContatoPage() { return <div>Página de Contato</div>; }
 

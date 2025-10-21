@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
+import './style.css';
 
 export function Navbar() {
   return (
-    <nav className="bg-gray-800 text-white shadow-lg">
+    <nav className="menu text-white shadow-lg">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="text-2xl font-bold hover:text-blue-400">
